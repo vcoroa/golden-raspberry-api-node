@@ -33,7 +33,7 @@ golden-raspberry-api/
 
 ### Arquivo CSV
 O arquivo `movies.csv` contém os dados dos filmes indicados e vencedores do Golden Raspberry Awards, no formato:
-```
+```text
 year;title;studios;producers;winner
 1980;Can't Stop the Music;Associated Film Distribution;Allan Carr;yes
 ...
@@ -81,7 +81,7 @@ Os testes de integração foram implementados com **Jest** e **Supertest** para 
 npm test
 ```
 Exemplo de saída esperada:
-```
+```bash
 PASS  tests/routes.test.js
 Producer Intervals API
   ✓ should return max and min intervals for producers (50ms)
