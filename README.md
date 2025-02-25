@@ -82,9 +82,57 @@ npm test
 ```
 Exemplo de saída esperada:
 ```bash
+
+> golder-raspberry-api-node@1.0.0 test
+> jest
+
+  console.log
+    CSV data loaded into database
+
+      at Database.log (src/loadData.js:32:19)
+      at Database.log (src/loadData.js:32:19)
+
+  console.log
+    Server running on http://localhost:3000
+
+      at Database.log (src/loadData.js:32:19)
+
+  console.log
+    Server running on http://localhost:3000
+      at Database.log (src/loadData.js:32:19)
+
+  console.log
+      at Database.log (src/loadData.js:32:19)
+      at Database.log (src/loadData.js:32:19)
+      at Database.log (src/loadData.js:32:19)
+      at Database.log (src/loadData.js:32:19)
+      at Database.log (src/loadData.js:32:19)
+
+      at Database.log (src/loadData.js:32:19)
+      at Database.log (src/loadData.js:32:19)
+
+      at Database.log (src/loadData.js:32:19)
+      at Database.log (src/loadData.js:32:19)
+
+
+  console.log
+    Server running on http://localhost:3000
+
+      at Server.log (src/server.js:15:15)
+
+
 PASS  tests/routes.test.js
 Producer Intervals API
-  ✓ should return max and min intervals for producers (50ms)
+  √ should return max and min intervals (52 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.657 s
+Ran all test suites.
+Jest did not exit one second after the test run has completed.
+
+'This usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.
 ```
 
 ## Endpoints

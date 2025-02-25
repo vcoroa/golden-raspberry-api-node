@@ -1,8 +1,8 @@
 {
-  "name": "teste-tecnico-node",
+  "name": "golder-raspberry-api-node",
   "version": "1.0.0",
-  "description": "teste tecnico em node pra ler csv",
-  "main": "index.js",
+  "description": "A Node.js technical application that reads and processes CSV data to analyze Golden Raspberry Awards winners, identifying those with the largest and smallest intervals between consecutive wins.",
+  "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "test": "jest"
